@@ -5,6 +5,8 @@ import Profile from "./pages/Profile";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import ForgotPassword from "./pages/ForgotPassword";
+import NavBar from "./components/NavBar";
+import NotFoundPage from "./pages/NotFoundPage";
 
 
 function App() {
@@ -19,7 +21,9 @@ function App() {
           <Route path="/signin" element={<Signin />} />
           <Route path="/signin" element={<Signup />} />
           <Route path="/signin" element={<ForgotPassword />} />
+          <Route path="/*" element={<NotFoundPage />} />
           </Routes>
+          <NavBar />
           </Router>
     </>
   );
