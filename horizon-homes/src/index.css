@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -142,7 +142,7 @@ button {
 .pageHeader {
   font-size: 2rem;
   font-weight: 800;
-} */
+}
 
 .navbar {
   position: fixed;
@@ -651,15 +651,15 @@ button {
   color: #00cc66;
 }
 
-/* .profileCard {
+.profileCard {
   background-color: #ffffff;
   border-radius: 1rem;
   padding: 1rem;
   box-shadow: rgba(0, 0, 0, 0.2);
   max-width: 500px;
-} */
+}
 
-/* .profileDetails {
+.profileDetails {
   display: flex;
   flex-direction: column;
 }
@@ -672,8 +672,8 @@ button {
 .profileNameActive {
   all: unset;
   margin: 0.3rem 0;
-  font-weight: 600; */
-  /* width: 100%;
+  font-weight: 600;
+  width: 100%;
 }
 .profileNameActive {
   background-color: rgba(44, 44, 44, 0.1);
@@ -748,8 +748,8 @@ button {
 }
 
 .flex {
-  display: flex; */
-/* }
+  display: flex;
+}
 
 .formInput,
 .formInputAddress,
@@ -822,5 +822,5 @@ button {
   border-radius: 1rem;
   margin-left: 1rem;
   font-size: 0.8rem;
-  opacity: 0.75; */
-/* } */
+  opacity: 0.75;
+}
