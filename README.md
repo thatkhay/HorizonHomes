@@ -1,1 +1,1 @@
-# HorizonHomes
+# Horizon-Homes
