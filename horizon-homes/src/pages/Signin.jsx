@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {toast} from 'react-toastify'
 import { ReactComponent as ArrowRightIcon  } from '../assets/svg/keyboardArrowRightIcon.svg'
 import visibilityIcon from '../assets/svg/visibilityIcon.svg'
 import { Link, useNavigate } from 'react-router-dom'
@@ -33,9 +34,13 @@ const Signin = () => {
     try { 
       const auth = getAuth();
       const userCredential = await signInWithEmailAndPassword(auth, email, password); 
-      navigate('/')
+      if (userCredential.user){
+        navigate('/')
+      }
+     
     } catch (error) {
-console.log(error);
+    // console.log(error);
+    toast.error('Unable to validate User Credentials')
     }
 
 
