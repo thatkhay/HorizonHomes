@@ -13,7 +13,7 @@ const Profile = () => {
     email: auth.currentUser.email,
   })
 const { name, email } = formData  
-const navigate = useNavigate
+const navigate = useNavigate()
   const onLogout = () => {
     auth.signOut()
     navigate('/')
