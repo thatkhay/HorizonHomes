@@ -6,6 +6,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { getAuth, createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import {setDoc, doc, serverTimestamp} from "firebase/firestore"
 import {db} from '../firebase.config'
+import Oauth from '../components/Oauth'
 
 
 
@@ -81,7 +82,7 @@ navigate('/')
       </button>
     </div>
   </form>
-  {/* goggle oaut */}
+<Oauth/>
   <Link to='/signin' className='registerLink'>
     Sign In Instead
   </Link>
