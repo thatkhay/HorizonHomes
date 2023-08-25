@@ -25,7 +25,7 @@ const NavBar = () => {
                 </li>
                 <li className="navbarListItem" onClick={() => navigate ('/offers')}>
                     <OfferIcon  fill={pathMathesRoute('/offers') ? 'green' : 'black'} width='36px' height='36px'/>
-                    <p className={pathMathesRoute('/offers') ? 'navbarListItemNameActive' : 'navbarListItemName'}>Offer</p>
+                    <p className={pathMathesRoute('/offers') ? 'navbarListItemNameActive' : 'navbarListItemName'}>Offers</p>
                 </li>
                 <li className="navbarListItem" onClick={() => navigate ('/profile')}>
                     <PersonOutlineIcon fill={pathMathesRoute('/profile') ? 'green' : 'black'} width='36px' height='36px'/>
