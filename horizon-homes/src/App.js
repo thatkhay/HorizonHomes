@@ -11,6 +11,7 @@ import NavBar from "./components/NavBar";
 import NotFoundPage from "./pages/NotFoundPage";
 import PrivateRoute from "./components/PrivateRoute";
 import Category from "./pages/Category";
+import CreateListings from "./pages/CreateListings";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/forgotpassword" element={<ForgotPassword />} />
           <Route path="/*" element={<NotFoundPage />} />
+          <Route path="/createlisting" element={ <CreateListings/> } />
           </Routes>
           <NavBar />
           </Router>
